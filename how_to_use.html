@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <!--CSS--> 
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<title >DIAL4U</title>
+
+
+
+
+  <header class="navbar navbar-expand-sm navbar-dark bd-navbar sticky-top" style="background-color:#f4ecec">
+    <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation" >
+      <div class="d-lg-none" style="width: 2.25rem;"></div>
+      <a class="navbar-brand p-0 me-0 me-lg-2" href="home.html" aria-label="Bootstrap">
+        <img src="logo.png" width="60" height="44" class="d-block my-1 img-fluid my-auto opacity-25"  role="img"><title>Dial4u</title></img>
+      </a>
+      <div class="offcanvas-lg offcanvas-end flex-grow-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
+        <div class="offcanvas-body p-4 pt-0 p-lg-0">
+          <hr class="d-lg-none text-white-50">
+          <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav py-2" >
+            <li class="nav-item col-6 col-lg-auto dropdown">
+                <a class="nav-link dropdown-toggle" style="color:#05122B; font-weight: 300" href="home.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Structure
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="home.html">Home</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Modalities.html" id="skills" >Teaching Modalities</a></li>
+                  <li><a class="dropdown-item" href="methodologies.html">Teaching Methodologies</a></li>
+                  <li><a class="dropdown-item" href="skills.html">Language Skills</a></li>
+                  <li><a class="dropdown-item" href="strategies.html">Learning Strategies</a></li>
+                  <li><a class="dropdown-item" href="design.html">Design Course</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="teach_training.html">Teacher Training</a></li>
+                  <li><a class="dropdown-item" href="resources.html">Resources</a></li>
+                  
+                </ul>
+            
+           
+            <li class="nav-item col-6 col-lg-auto"><a href="how_to_use.html"class="nav-link py-2  px-lg-2 " style=" font-weight: 600;color:#122A57;">How to use this guide?</a></li>
+            <li class="nav-item col-6 col-lg-auto"><a href="about_it.html" class="nav-link py-2  px-lg-2" style=" font-weight: 300;color:#05122B;">About it</a></li>
+          
+            
+          </ul>
+          <hr class="d-lg-none text-white-50">
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 py-2 px-lg-2" role="search">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+          </form>
+          <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+            <li class="nav-item col-4 col-lg-auto">
+          <a href="https://www.facebook.com/DIAL4u" class=" nav-link py-2 px-0 px-lg-2" target="_blank" rel="noopener" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="navbar-nav-svg" viewBox="0 0 16 16">
+            <path fill="#808080" fill-rule="evenodd" d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+          </a>
+        </li>
+       <li class="nav-item col-4 col-lg-auto">
+            <a href="https://open.spotify.com/show/3SfeCMkCML1WpHdemBMqrY" class=" nav-link py-2 px-0 px-lg-2" target="_blank" rel="noopener" >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="navbar-nav-svg" viewBox="0 0 16 16" role="img">
+                <path  fill="#808080" fill-rule="evenodd" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"></path>
+              </svg>
+          </a>
+        </li>
+        <li class="nav-item col-4 col-lg-auto">
+          <a class=" nav-link py-2 px-0 px-lg-2" target="_blank" rel="noopener" href="https://www.linkedin.com/company/dial4u/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#808080" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
+            </svg>
+          </a>
+        </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+</head>
+<body>
+ 
+
+  
+ <div class="container" style="margin-top:2%">
+  <div class="row" style="margin-bottom:2%">
+  <h2 class="text-secondary fw-light" style="margin-bottom:0.5%">How to use this guide?</h2>
+  <p> This page is currently available in four languages. You can have access to it in the list below.</p>
+  <div style="margin-top:2px" >
+    <!-- a link that triggers modal -->
+    <image href="#myModal" type="" class="" data-bs-toggle="modal" data-bs-target="#myModal" src="Podcast/circle_xg.001 - Editado.png" style="max-height:300px"></image>
+<!--a href="#myModal" type="" class="" data-bs-toggle="modal" data-bs-target="#myModal">More details</a-->
+
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-lg modal-dialog-scrollable" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">How to use this guide?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" >
+        <!--        include image here-->
+        <img src="Podcast/circle_xg.001 - Editado.png" alt="Image Title" class="img-fluid" >
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+     
+    </div>
+
+  
+ 
+  </div>
+  <div class="accordion" id="accordionExample" >
+    <!--english-->
+    <div class="accordion-item" > 
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >English</button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h4 class="pb-4 mb-4 fw-semibold  border-bottom">How to use this guide?</h4>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2wnJgmPhVwISJAx61px0ZD?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <p>To make the most out of this guide, it is important for you to<strong> take your  time to think about what you want</strong> to search for or find, what you  need, and, if possible, verbalise or write it down. This can help you to keep your focus and make your search more effective.</p>
+          <p>What we present here are  <strong>just some ideas for using the guide effectively.</strong> However, feel free to follow our recommendations or navigate at your own path and therefore become an autonomous user. There are different ways to access the content of the guide:</p> 
+          <ul><li>using the <strong>fixed menu</strong> at the top left-hand corner in the tab ‘Structure’</li>
+          <li>scrolling through the different sections and sub-sections of the <strong>branch-like image</strong></li>
+        <li>using the <strong>search box</strong> on the top of the screen.</li></ul>
+          <h5 class="fw-bold">SOME IDEAS FOR USING THIS GUIDE</h5>
+          <ul >
+            <li style="margin-bottom:0.5%">If your goal is <strong>simply to know the contents of the guide,</strong>you can browse any of the sections and subsections. You will find short explanations as well as links to resources of all kinds (videos, podcasts, websites, articles, etc.) that expand on this information.</li>
+            <li style="margin-bottom:0.5%" >If you prefer to <strong>consult a specific content</strong> (e.g. some active methodologies using digital media, or online training courses to complete your training) you can expand the corresponding branch in the image or access it from the fixed menu in the ‘Structure’ tab.</li>
+            <li style="margin-bottom:0.5%">If you need to plan a language lesson using digital technologies in an effective way, we recommend  you to follow the following steps within the guide:</li>
+            <ul><li style="margin-bottom:0.5%">
+              1. Select the <strong>teaching modality</strong> that suits your educational context or that you would like to implement.</li>
+            <li style="margin-bottom:0.5%">
+              2. Select the <strong>methodology</strong> you would like  to apply.</li>
+            <li style="margin-bottom:0.5%">3. Select the <strong>linguistic competence</strong> you would like to work on in your class.</li>
+          <li style="margin-bottom:0.5%">
+            4. Choose a <strong>learning strategy</strong> you would like  your students to activate and the digital tool that could be applied.</li>
+        <li style="margin-bottom:0.5%">5. Design the <strong>planning</strong> for your classes. In the Design course section you will find an example of a planning design adapted to all teaching modalities.</li>
+      <li style="margin-bottom:0.5%">6. <strong>Design your course.
+      </strong> In the Design course section you will find an example of a French learning scenario designed with the flipped classroom methodology.</li></ul>
+      <li style="margin-bottom:0.5%">You can also use this guide to be updated with the latest developments and research in digital pedagogies or the most recent  applications of digital resources. In this case, you may want to consult the DIAL4U dynamic library.</li>
+          </ul>
+        <p><strong>REMEMBER:</strong> Feel free to use this guide at your convenience and according to your needs and interests. Enjoy the DIAL4U interactive guide experience!
+        </p>
+         
+        </div>
+      </div>
+    </div>
+     <!--spanish-->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Spanish</button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h4 class="pb-4 mb-4 fw-semibold  border-bottom">¿Cómo utilizar esta guía?</h4>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0P9fVPq69nOBbFa7r4mBik?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        
+          <p>Para sacar más partido a esta guía, es <strong>importante que te tomes tu tiempo  para pensar qué quieres</strong>buscar o encontrar y qué necesitas. Si es posible, verbalízalo o escríbelo, esto te ayudará a no perder de vista tu objetivo y hará que tu búsqueda sea más eficaz.</p>
+          <p>Lo que presentamos aquí son   <strong>solo algunas ideas de uso, </strong>que puedes tenerlas en cuenta o no. Con tu decisión estarás poniendo en práctica la autonomía que también quieres que desarrollen tus estudiantes. Puedes<strong> acceder a lo que te interesa</strong> por varias vías:</p> 
+          <ul><li>utilizando el <strong>menú fijo</strong> de la parte superior izquierda dentro de la pestaña de Structure</li>
+          <li>desplazándote por las diferentes secciones y subsecciones de la <strong>imagen ramificada</strong></li>
+        <li>utilizando la <strong> caja de búsqueda</strong> que aparece en la parte superior</li></ul>
+          <h5 class="fw-bold">ALGUNAS IDEAS PARA LA UTILIZACIÓN DE ESTA GUÍA</h5>
+          <ul >
+            <li style="margin-bottom:0.5%">Si tu objetivo es <strong>simplemente conocer el contenido de la guía,</strong> puedes navegar por cualquiera de las secciones y subsecciones. En ellas encontrarás pequeñas explicaciones, además del enlace a recursos de todo tipo (vídeos, podcast, páginas web, artículos, etc.) que amplían esta información. 
+            </li>
+            <li style="margin-bottom:0.5%" >Si quieres <strong>consultar un contenido concreto</strong> (por ejemplo, algunas metodologías activas en las que se utilizan medios digitales, o cursos de formación en línea que completen tu formación ) puedes desplegar la rama correspondiente de la imagen o bien acceder a ella desde el menú fijo de <i>Structure</i></li>
+            <li style="margin-bottom:0.5%">Si quieres <strong>planificar una clase de lengua</strong> haciendo uso de las tecnologías digitales de una manera eficaz, te aconsejamos que que sigas los siguientes pasos dentro de la guía:</li>
+            <ul><li style="margin-bottom:0.5%">
+              1. Selecciona dentro de la guía la <strong>modalidad de enseñanza</strong> que se adapta a tu contexto educativo o que quieres poner en marcha.</li>
+            <li style="margin-bottom:0.5%">
+              2. Selecciona la<strong>metodología</strong> que quieres aplicar.</li>
+            <li style="margin-bottom:0.5%">3. Selecciona la <strong>competencia lingüística</strong> que quieres trabajar en tu clase.</li>
+          <li style="margin-bottom:0.5%">
+            4. Escoge una <strong>estrategia de aprendizaje</strong> que deseas que tus estudiantes activen y la <strong>herramienta digital</strong>que se podría aplicar.</li>
+        <li style="margin-bottom:0.5%">5. Diseña la  <strong>hoja de ruta</strong> de tus clases. En el apartado de <i>Design course</i> encontrarás un ejemplo de diseño de hoja de ruta adaptado a todas las modalidades de enseñanza</li>
+      <li style="margin-bottom:0.5%">6. Diseña tu <strong>escenario de aprendizaje.
+      </strong> En el apartado de Desing course encontrarás un ejemplo de escenario de aprendizaje del francés diseñado con la metodología <i>Flipped classroom.</i></li></ul>
+      <li style="margin-bottom:0.5%">También puedes utilizar esta guía para <strong>estar al día </strong>respecto a las últimas novedades publicadas en torno a las pedagogías digitales o aplicación de recursos digitales. En este caso, te interesa consultar la biblioteca dinámica DIAL4U.
+      </li>
+          </ul>
+        <p><strong>RECUERDA: </strong>Siéntete libre de utilizar esta guía según te convenga y  según tus necesidades e intereses. ¡Feliz navegación!
+        </p>
+        </div>
+      </div>
+    </div>
+     <!--portuguese-->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Portuguese
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h4 class="pb-4 mb-4 fw-semibold  border-bottom">Como utilizar este guia?</h4>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6mNfPhpeQdi1Y1dgURoWMf?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        
+          <p>Para aproveitar ao máximo este guia, é importante que reserve um tempo para pensar sobre o que pretende pesquisar ou encontrar. Isso pode ajudá-lo a manter o foco e tornar sua pesquisa mais eficaz.
+          </p>
+          <p>O que apresentamos aqui são apenas <strong>algumas ideias de uso,</strong> que pode ou não ter em conta. No entanto, fique à vontade para seguir nossas recomendações ou navegar em total autonomia. Pode aceder ao conteúdo do guia de várias maneiras:</p> 
+          <ul><li>utilizando o <strong>menu fixo</strong> no canto superior esquerdo sob o separador Estrutura;
+          </li>
+          <li>epercorrendo as diferentes secções e sub-secções do mapa mental;
+          </li>
+        <li>utilizando a <strong>caixa de pesquisa</strong> na parte superior da mapa mental 
+
+        </li></ul>
+          <h5 class="fw-bold">ALGUMAS IDEIAS PARA A UTILIZAÇÃO DESTE GUIA
+          </h5>
+          <ul >
+            <li style="margin-bottom:0.5%">Se o seu objectivo é  <strong>simplesmente conhecer o conteúdo do guia,</strong> pode navegar através de qualquer uma das secções e subsecções. Aí encontrará pequenas explicações, bem como links para diferentes recursos multimodais (vídeos, podcasts, websites, artigos, etc.) que se expandem relativamente a esta informação
+            </li>
+            <li style="margin-bottom:0.5%" >Se quiser <strong>consultar um conteúdo específico</strong> (por exemplo, alguma metodologia activa ou cursos de formação on-line para completar a sua formação) pode expandir o ramo correspondente no mapa ou aceder a esse ramo a partir do menu  <i>Estrutura fixa.</i></li>
+            <li style="margin-bottom:0.5%">Se quiser <strong>planear uma aula de língua</strong> utilizando as tecnologias digitais de forma eficaz, aconselhamo-lo a seguir os seguintes passos dentro do guia:
+            </li>
+            <ul><li style="margin-bottom:0.5%">
+              1. Seleccione dentro do guia a <strong>modalidade de ensino</strong> que se adequa ao seu contexto educativo ou que pretende implementar.</li>
+
+            <li style="margin-bottom:0.5%">
+              2. Seleccione a <strong>metodologia</strong>metodologia que pretende aplicar.
+            </li>
+            <li style="margin-bottom:0.5%">3. Seleccione a <strong>competência linguística</strong> que pretende trabalhar na sua turma.</li>
+          <li style="margin-bottom:0.5%">
+            4. Escolha uma <strong>estratégia de aprendizagem</strong> que deseja que os seus alunos activem e a ferramenta digital que poderia ser aplicada.</li>
+        <li style="margin-bottom:0.5%">5. <strong>Desenhe o roteiro</strong> para as suas aulas. Na secção de cursos Desing encontrará um exemplo de concepção de um roteiro adaptado a modelo de aula invertida..</li>
+      <li style="margin-bottom:0.5%">6.  Desenhe o seu <strong>cenário de aprendizagem</strong>. Na secção de cursos Desing encontrará um exemplo de um cenário de aprendizagem de francês concebido com a metodologia da sala de aula invertida.
+
+      </li></ul>
+      <li style="margin-bottom:0.5%">Pode também utilizar este guia para se  <strong>manter atualizado</strong> com os últimos desenvolvimentos em pedagogias digitais e a utilização de recursos digitais. Neste caso, consulte a biblioteca dinâmica do DIAL4U.
+
+      </li>
+          </ul>
+        <p><strong>Lembre-se: </strong> Sinta-se à vontade para utilizar este guia à sua conveniência e de acordo com as suas necessidades e interesses. Feliz navegação!
+        </p>        
+      </div>
+      </div>
+    </div>
+     <!--french-->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">French</button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h4 class="pb-4 mb-4 fw-semibold  border-bottom">Comment utiliser ce guide?</h4>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1rB181jsfaaaSZ3W4AhL16?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        
+          <p>Pour tirer le meilleur parti de ce guide,<strong> il est important que vous preniez le temps de réfléchir à ce que vous voulez chercher ou trouver</strong>et à ce dont vous avez besoin. Si possible, verbalisez ou écrivez - cela vous aidera à rester concentré et rendra votre recherche plus efficace. 
+          </p>
+          <p>Ce que nous avons présenté ici   <strong>ne sont que quelques idées à utiliser, </strong>que vous pouvez ou non prendre en compte. Cependant, n'hésitez pas à suivre nos recommandations ou à naviguer à votre guise et ainsi devenir un utilisateur autonome. Il existe différentes manières d'accéder au contenu du guide :</p> 
+          <ul><li>en utilisant le menu fixe dans le coin supérieur gauche sous l'onglet Structure;</li>
+          <li>en faisant défiler les différentes sections et sous-sections de l'image ramifiée;</li>
+        <li>en utilisant la boîte de recherche en haut de l'image ramifiée 
+        </li></ul>
+          <h5 class="fw-bold">QUELQUES IDÉES POUR UTILISER CE GUIDE</h5>
+          <ul >
+            <li style="margin-bottom:0.5%">Si votre objectif est <strong> simplement de prendre connaissance du contenu du guide,</strong> vous pouvez naviguer dans toutes les sections et sous-sections. Vous y trouverez de courtes explications, ainsi que des liens vers des ressources de toutes sortes (vidéos, podcasts, sites web, articles, etc.) qui approfondissent ces informations 
+            </li>
+            <li style="margin-bottom:0.5%" >Si vous souhaitez  <strong> consulter un contenu spécifique</strong>(par exemple, certaines méthodologies actives utilisant des médias numériques, ou des cours en ligne pour compléter votre formation), vous pouvez développer la branche correspondante dans l'image ou y accéder à partir du menu 
+              <i>Structure fixe</i></li>
+            <li style="margin-bottom:0.5%">Si vous souhaitez <strong>planifier une leçon de langue</strong> en utilisant efficacement les technologies numériques, nous vous conseillons de suivre les étapes suivantes du guide :
+            </li>
+            <ul><li style="margin-bottom:0.5%">
+              1. Sélectionnez dans le guide la modalité d'enseignement qui convient à votre contexte éducatif ou que vous souhaitez mettre en œuvre.</li>
+
+            <li style="margin-bottom:0.5%">
+              2. Sélectionnez la
+            <strong>méthodologie</strong>  que vous souhaitez appliquer.</li>
+            <li style="margin-bottom:0.5%">3. Sélectionnez la 
+              <strong>compétence linguistique</strong> que vous souhaitez travailler dans votre classe.</li>
+          <li style="margin-bottom:0.5%">
+            4. Choisissez une <strong>stratégie d'apprentissage</strong> que vous voulez que vos élèves activent et l'outil numérique qui pourrait être appliqué.</li>
+        <li style="margin-bottom:0.5%">5. Concevez la feuille de route de vos cours. Dans la section Conception du cours, vous trouverez un exemple de conception d'une feuille de route adaptée à toutes les modalités d'enseignement.</li>
+      <li style="margin-bottom:0.5%">6. Concevez votre scénario d'apprentissage. Dans la section Conception du cours, vous trouverez un exemple de scénario d'apprentissage du français conçu avec la méthodologie de la classe inversée.
+      </li></ul>
+      <li style="margin-bottom:0.5%">Vous pouvez également utiliser ce guide pour vous <strong>tenir au courant</strong> des derniers développements en matière de pédagogies numériques et d'utilisation des ressources numériques. Dans ce cas, consultez la bibliothèque dynamique DIAL4U.
+
+      </li>
+          </ul>
+        <p><strong>RAPPEL: </strong> N'hésitez pas à utiliser ce guide à votre convenance et en fonction de vos besoins et intérêts. Bonne navigation!
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  
+
+ 
+
+
+
+</div>
+    </body>
+    </html>
+    

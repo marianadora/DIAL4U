@@ -1,0 +1,422 @@
+{"name": "Podcast",
+"description": "",
+"have_pub": "1",
+"have_pod": "",
+"have_img": "",
+"have_video": "",
+"have_profile": "",
+"publication": [
+  {
+    "link": "https://anchor.fm/DIAL4U",
+    "title": "DIAL4U Podcast",
+    "year": ""
+  }
+],
+
+"children": [
+  {
+    "name": "Social Apps",
+    "description": "Alberto Andujar is lecturer at the University of Almería (Spain). He specializes into second language learning and technology, computer-assisted language and mobile-assisted language learning. He is also author of different international research articles in these fields and is currently developing projects into the use of virtual reality for second language learning.",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Alberto-Andujar-e1qllqh",
+        "title": "Alberto Andujar",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/andujar.png",
+        "job": "Lectur",
+        "university": "University of Almería - Spain",
+        "orcid": "https://orcid.org/0000-0002-8865-9509",
+        "link": "https://www.researchgate.net/profile/Alberto-Andujar"
+      }
+    ]
+  },
+  {
+    "name": "WooClap",
+    "description": "",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "1",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Aurlie-Laduguie-e1qlm4q/a-a8rqdb0",
+        "title": "Aurélie Laduguie",
+        "image": "Podcast/aurelie.png",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/aurelie.png",
+        "job": "Teacher",
+        "university": " Université de Nouvelle-Calédonie - France",
+        "orcid": "aurelie.lauduguie@unc.nc",
+        "link": "https://unc.nc/formation/formation-des-enseignants/linstitut-national-du-professorat-et-de-leducation/"
+      }
+    ],
+    "video": [
+      {
+        "link": "https://www.youtube.com/embed/G2GDnIl_G6E",
+        "title": "",
+        "description": "In this episode, Aurélie Laduguie presents how she uses the WooClap app to improve interactions during class."
+      }
+    ]
+  },
+  {
+    "name": "Online Tasks",
+    "description": "Carolina Girón García presents her class pedagogical on legal English through technological resources support at Jaume I University.",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Carolina-Girn-Garca-e1qmb3m/a-a8rqdb0",
+        "title": "Carolina Girón García",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/carolina.png",
+        "job": "Associate Professor",
+        "university": "Universitat Jaume I, Spain",
+        "orcid": "https://orcid.org/0000-0002-2377-4039",
+        "link": "https://www.uji.es/departaments/com/base/estructura/personal/&url=/departaments/com/base/estructura/personal/&p_profesor=142601"
+      }
+    ]
+  },
+  {
+    "name": "Facebook",
+    "description": "",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Elena-Baynat-e1qgegv/a-a8rq8et",
+        "title": "Elena Baynat",
+        "image": "",
+        "description": "In this episode, Elena Baynat introduced how she uses Facebook as a didactic tool to assist in language teaching."
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/elena.png",
+        "job": "Teacher",
+        "university": "Universitat de València - Spain",
+        "orcid": "",
+        "link": "https://uv.academia.edu/M%C2%AAElenaBaynatMonreal/CurriculumVitae"
+      }
+    ]
+  },
+  {
+    "name": "MOOC",
+    "description": "Elena Martín Monje presents her research on the application of technology to English language learning, focusing on the use of Open Educational Resources and MOOCs (massive open online courses).",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Elena-Martn-Monje-e1qmce0",
+        "title": "Elena Martín Monje",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/elena_monje.png",
+        "job": "Professor",
+        "university": "Universidad Nacional de Educación a Distancia - Spain",
+        "orcid": "",
+        "link": "https://www.uned.es/universidad/docentes/filologia/elena-maria-martin-monje.html"
+      }
+    ]
+  },
+  {
+    "name": "Gamification",
+    "description": "Professor Giedrė Valūnaitė Oleškevičienė presents her research in language teaching and learning at the University of Mykolas Romeris.",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Giedr-Valnait-Olekeviien-e1qme8e",
+        "title": "Giedrė Valūnaitė Oleškevičienė",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/giedre.png",
+        "job": "Professor",
+        "university": "Mykolas Romeris University - Litany",
+        "orcid": "",
+        "link": "https://lt.linkedin.com/in/giedre-valunaite-oleskevicien%C4%97-37315032"
+      }
+    ]
+  },
+  {
+    "name": "Tellecolaboration",
+    "description": "Gladys Villegas-Paredes es profesora en la Facultad de Educación de la Universidad Internacional de la Rioja (UNIR). Imparte docencia en el Máster universitario en enseñanza del español como lengua extranjera, y Máster universitario en didáctica de la lengua en Educación Infantil y Primaria. Es Doctora en Filología Española por la Universidad Complutense de Madrid (UCM); Magister en Enseñanza del Español como Lengua Extranjera (UCM) y Máster en promoción de la literatura infantil y juvenil por la Universidad de Castilla La Mancha (UCLM). Es miembro del grupo de innovación educativa SLATES (Second Life Aplicado a Tutorías en Educación Superior) de la Universidad de Valencia. Coordina y es investigadora principal (IP) del Proyecto de innovación docente COINELE (Proyecto de colaboración interuniversitario: las competencias interculturales con mediación tecnológica en el proceso de enseñanza-aprendizaje del español como LE - 2020-2021), así como del proyecto TACIDELE: (telecolaboración para la adquisición de competencias interculturales y digitales en ELE-2021-2022). Su acción investigadora se centra en la pragmática intercultural; interculturalidad y literatura en ELE; interculturalidad y formación del profesorado, telecolaboración en ELE.",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Gladys-Villegas-Paredes-e1qmf8i",
+        "title": "Gladys Villegas-Paredes",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/gladys.png",
+        "job": "Professor",
+        "university": "Universidad Internacional de la Rioja - Spain",
+        "orcid": "https://orcid.org/0000-0003-3301-8963",
+        "link": "https://orcid.org/0000-0003-3301-8963"
+      }
+    ]
+  },
+  {
+    "name": "Moodle",
+    "description": "In this episode, Jorge Arús Hita talks about using Moodle in his classes at the Complutense University of Madrid",
+    "have_pub": "1",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "publication": [
+      {
+        "link": " https://www.researchgate.net/profile/Jorge-Arus-Hita",
+        "title": "Research Gate",
+        "year": ""
+      },
+      {
+        "link": "https://www.linkedin.com/in/jorge-ar%C3%BAs-hita-58575764/",
+        "title": "Linkedin",
+        "year": ""
+      }
+    ],
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Jorge-Ars-Hita-e1qmg2d",
+        "title": "Jorge Arús Hita",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/jorge.png",
+        "job": "Professor",
+        "university": "Complutense University of Madrid - Spain",
+        "orcid": "",
+        "link": "https://ucm.academia.edu/JorgeAr%C3%BAsHita3"
+      }
+    ]
+  },
+  {
+    "name": "Oral and Written Interaction Tools",
+    "description": "Jorge Martí Contreras es Doctor en Lengua Española (enlace a la Tesis Doctoral) por la Universitat de València, Licenciado en Filología Hispánica y Licenciado en Comunicación Audiovisual.",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Jorge-Mart-Contreras-e1qmgfk",
+        "title": "Jorge Martí-Contreras",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/jorge_marti.jpeg",
+        "job": "Associate Professor",
+        "university": "Universitat Jaume I - Spain",
+        "orcid": "https://orcid.org/0000-0002-1619-1839",
+        "link": "https://orcid.org/0000-0002-1619-1839"
+      }
+    ]
+  },
+  {
+    "name": "Translation Tools",
+    "description": "",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Manuel-Bellmunt-Serrano-e1qmgur",
+        "title": "Manuel Bellmunt Serrano",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/manuel.png",
+        "job": "Assistant Professor",
+        "university": "Universitat Jaume I - Spain",
+        "orcid": "",
+        "link": "https://www.uji.es/departaments/ang/base/estructura/personal/&url=/departaments/ang/base/estructura/personal&p_departamento=1882&p_profesor=89446"
+      }
+    ]
+  },
+  {
+    "name": "Genially",
+    "description": "María Dolores Castrillo holds a Senior Lecturer position at UNED, teaching and researching in the areas of German Studies and CALL (Computer-Assisted Language Learning). Member of the ATLAS (Applying Technology to LAnguageS) group, her current research interests include MOOCs (Massive Open Online Courses), Open Educational Resources (OERs), Computer-Mediated Communication, Mobile Assisted Language Learning (MALL) and Social Networks for Language Learning. In 2016 she founded the GLOBE Innovation Group (Group for Languages in Open and Blended Environments) that has obtained 4 financed innovation projects related to open teaching and learning and data-driven language learning. She has won two prizes related to Open Learning: Best Open CourseWare (2008) and best MOOC (2013), both awarded by the Spanish Ministry of Education, Universia (Banco Santander) and Telefónica. Also, her research practice has received official recognition. In 2021 she was distinguished with the award for the best CALICO research paper, also her PhD thesis was awarded the Prize for Doctoral Excellence. She has participated in 8 competitive European and national research projects and 5 projects based on art. 83 LOU, for the transfer of R&D to the productive sector, the last of which, as the main researcher, carried out under an agreement between the UNED and Telefónica Educación Digital.",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Mara-Dolores-Castrillo-e1qmh6r",
+        "title": "María Dolores Castrillo",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/maria.png",
+        "job": "Senior Lectur",
+        "university": "Universitat Jaume I - Spain",
+        "orcid": "https://orcid.org/0000-0002-0713-2351",
+        "link": "https://www.uned.es/universidad/docentes/filologia/maria-dolores-castrillo-de-larreta-azelain.html"
+      }
+    ]
+  },
+  {
+    "name": "Mapas Enriquecidos",
+    "description": "",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Mercedes-Sanz-Gil-e1qmhg5",
+        "title": "Mercedes Sanz-Gil",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/mercedes.png",
+        "job": "Professor",
+        "university": "Universitat Jaume I - Spain",
+        "orcid": "https://orcid.org/0000-0003-2163-9439",
+        "link": "https://www.uji.es/departaments/fil/base/estructura/personal?p_departamento=1883&p_profesor=91812 "
+      }
+    ]
+  },
+  {
+    "name": "Flipped Classroom",
+    "description": "Merche Marqués, professor in the area of computer science and artificial intelligence, presents her experience with the flipped classroom at the Universitat Jaume I de Castelló.",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Merche-Marqus-e1qmhod",
+        "title": "Merche Marqués",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/merche.png",
+        "job": "Professor",
+        "university": "Universitat Jaume I - Spain",
+        "orcid": "",
+        "link": "https://www.uji.es/departaments/icc/base/estructura/personal?p_departamento=1442&p_profesor=65129"
+      }
+    ]
+  },
+  {"name": "Leximage+",
+    "description": "<p>Jérémy Rua Fontes é mestre em Português Língua Não Materna pela Universidade do Minho, com uma tese intitulada “Da fraseologia à fraseodidática em corpora: perspetiva de ensino de PLE a alunos franceses”.</p> <p>Atualmente desempenha funções de professor de português como língua estrangeira e de francês no Centro de Línguas da Universidade do Minho (BabeliUM), é docente de francês no Departamento de Estudos Românicos da Universidade do Minho, mas também no ensino básico e secundário e em contexto empresarial. É também tradutor e intérprete de português/francês do Tribunal Judicial de Braga.</p> <p>Os seus interesses de investigação são a didática das línguas, a fraseologia, fraseodidática, fraseotraductologia e as línguas de especialidade.</p>",
+    "have_pub": "",
+    "have_pod": "1",
+    "have_img": "",
+    "have_video": "",
+    "have_profile": "1",
+    "podcast": [
+      {
+        "link": "https://anchor.fm/dial4u/embed/episodes/Leximage----Jrmy-Rua-Fontes--French-e1ra1bs/a-a8rqdb0",
+        "image": "",
+        "description": ""
+      }
+    ],
+    "profile": [
+      {
+        "photo": "Podcast/jeremy.jpg",
+        "job": "Professor",
+        "university": "Universidade do Minho - Portugal",
+        "orcid": "",
+        "link": "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-fontes-a5148676/"
+      }
+    ]
+  },
+  {"name": "Ted Talks",
+  "description": "<p>Edgar Bernad is lecturer at the Universitat Jaume I (Spain). His research interests fall into Multimodal Discourse Analysis in EAP and ESP contexts and digital genres. He is also author of different international research articles in these fields and is currently developing projects into the nature of multimodal academic discourse.</p>",
+  "have_pub": "",
+  "have_pod": "1",
+  "have_img": "",
+  "have_video": "",
+  "have_profile": "1",
+  "podcast": [
+    {
+      "link": "https://anchor.fm/dial4u/embed/episodes/Ted-Talks---Edgar-Bernad--Spanish-e1rhfjj",
+      "description": ""
+    }
+  ],
+  "profile": [
+    {
+      "photo": "Podcast/edgar.png",
+      "job": "Lectur",
+      "university": "Universitat Jaume I - Spain",
+      "orcid": "",
+      "link": "https://orcid.org/0000-0002-7271-7735"
+    }
+  ]
+}
+]
+}

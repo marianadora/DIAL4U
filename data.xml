@@ -1,0 +1,45 @@
+const myModel = t.model({
+  name: t.string,
+  description: t.string,
+  have_pub: t.string,
+  have_pod: t.string,
+  have_img: t.string,
+  have_video: t.string,
+  have_profile: t.string,
+  children: t.array(
+    t.model({
+      name: t.string,
+      description: t.string,
+      have_pub: t.string,
+      have_pod: t.string,
+      have_img: t.string,
+      have_video: t.string,
+      have_profile: t.string,
+      publication: t.array(
+        t.model({
+          link: t.string,
+          title: t.string,
+          year: t.string
+        })
+      ),
+      children: t.array(
+        t.model({
+          name: t.string,
+          description: t.string,
+          have_pub: t.string,
+          have_pod: t.string,
+          have_img: t.string,
+          have_video: t.string,
+          have_profile: t.string,
+          publication: t.array(
+            t.model({
+              link: t.string,
+              title: t.string,
+              year: t.string
+            })
+          )
+        })
+      )
+    })
+  )
+})
